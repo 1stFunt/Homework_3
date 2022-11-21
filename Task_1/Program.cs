@@ -12,7 +12,7 @@ while (true)
     if (number < 100000 && number > 9999)
     {
         {
-            mir1 = number / 1000 % 10 + number / 10000 * 10;
+            mir1 = number / 1000;
             mir2 = number % 10 * 10 + number / 10 % 10;
         }
         if (mir1 == mir2)
